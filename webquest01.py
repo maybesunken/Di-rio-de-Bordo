@@ -1,15 +1,15 @@
 # -*- coding: latin-1 -*-
-energia0 = 'energia0.png'
-energia1 = 'energia1.png'
-energia2 = 'energia2.png'
-energia3 = 'energia3.png'
-energia4 = 'energia4.png'
-energia5 = 'energia5.png'
-energia6 = 'desenho01.jpg'
-energia7 = 'desenho02.jpg'
-energia8 = 'desenho03.jpg'
-energia9 =  'desenho04.jpg'
-energia10 = 'desenho05.jpg'
+energia0 = 'desenho00.jpg'
+energia1 = 'desenho01.jpg'
+energia2 = 'desenho02.jpg'
+energia3 = 'desenho03.jpg'
+energia4 = 'desenho04.jpg'
+energia5 = 'desenho05.jpg'
+energia6 = 'desenho06.jpg'
+energia7 = 'desenho07.jpg'
+energia8 = 'desenho08.jpg'
+energia9 =  'desenho09.jpg'
+energia10 = 'desenho10.jpg'
 
 estado = 0
 
@@ -18,7 +18,7 @@ from pygame.locals import *
 
 pygame.init()
 
-screen=pygame.display.set_mode((250,185),0,0)
+screen=pygame.display.set_mode((650,900),0,0)
 
 tela0=pygame.image.load(energia0).convert()
 tela1=pygame.image.load(energia1).convert()
