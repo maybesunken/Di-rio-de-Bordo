@@ -20,6 +20,10 @@ pygame.init()
 
 screen=pygame.display.set_mode((650,900),0,0)
 
+musica =pygame.mixer.music.load('aquarianonato.mp3.mp3')
+pygame.mixer.music.set_volume(0.15)
+pygame.mixer.music.play(-1)
+
 tela0=pygame.image.load(energia0).convert()
 tela1=pygame.image.load(energia1).convert()
 tela2=pygame.image.load(energia2).convert()
